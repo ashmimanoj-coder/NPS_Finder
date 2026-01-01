@@ -1,0 +1,67 @@
+# Noise & Pixel Pattern Analysis Forensic Tool
+
+## Overview
+
+The **Noise & Pixel Pattern Analysis Forensic Tool** is a digital image forensics application designed to analyze noise characteristics and pixel-level patterns to assess image authenticity.  
+It applies established forensic techniques to detect manipulation, recompression, resampling artifacts, and inconsistencies that may indicate synthetic or altered imagery.
+
+This tool is intended for research, academic study, cybersecurity investigations, and digital forensics workflows.
+
+---
+
+## Key Capabilities
+
+### Sensor & Noise Analysis
+- Extraction of noise residuals
+- Sensor pattern (PRNU-style) inspection
+- Local noise variance evaluation
+
+### Pixel Pattern Examination
+- Pixel distribution analysis
+- Detection of interpolation and resampling artifacts
+- Identification of pixel-level inconsistencies
+
+### Forensic Integrity Checks
+- JPEG compression artifact detection
+- Region-based noise inconsistency mapping
+- Frequency-domain anomaly detection
+
+### Visualization
+- Noise variance heatmaps
+- FFT and frequency-domain plots
+- Difference maps for comparative analysis
+
+### Automation
+- Batch image analysis
+- Exportable forensic reports
+
+---
+
+## Use Cases
+
+- Digital image authenticity verification
+- Image tampering and forgery detection
+- Deepfake and AI-generated image analysis
+- Academic and forensic research
+- Cybercrime and digital evidence analysis
+
+---
+
+## Installation
+
+### Requirements
+
+- Python 3.8 or higher
+- Dependencies:
+  - numpy
+  - opencv-python
+  - scipy
+  - matplotlib
+  - scikit-image
+
+### Setup Instructions
+
+```bash
+git clone https://github.com/yourusername/noise-pixel-forensics.git
+cd noise-pixel-forensics
+pip install -r requirements.txt
